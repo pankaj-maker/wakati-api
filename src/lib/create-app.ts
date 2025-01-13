@@ -11,7 +11,7 @@ export function createApp() {
 const app= createRouter()
 
 app.notFound(notFound)
-app.use(serveEmojiFavicon("🦊"))
+// app.use(serveEmojiFavicon("🦊"))
 app.onError(onError)
 app.use(logger)
 return app
