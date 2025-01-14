@@ -19,7 +19,7 @@ export const analyze = createRoute({
       content: {
         'application/json': {
           schema: z.object({
-            message: z.string(),
+            
           }),
         },
       },
